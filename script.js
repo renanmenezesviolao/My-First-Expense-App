@@ -133,7 +133,7 @@ function adddeletebutton() {
   if (del.children.length === 0) {
     const button = document.createElement("button");
 
-    button.innerHTML = "Delete";
+    button.innerHTML = "Delete All";
 
     button.classList.add("del");
 
